@@ -1,0 +1,77 @@
+------------
+|		|
+|  ARRAYS	|
+|		|
+------------
+
+Arrays are Object is JAVA.
+
+Declared as :
+------------- 
+	
+	int a[];  // here 'a' is'nt a variable, we call it as Reference.
+
+
+
+int []a;	// decalration
+
+a = new int [5];		//	allocation
+
+int [] a = new int [5];	// declaration and allocation
+
+
+
+
+Type 1:
+--------
+
+int []a;  
+
+int a[];   // normal single variable array 
+
+int[] a; 
+
+
+
+Type 2:
+--------
+
+int []a,b,c;	// here all 'a','b' & 'c' wil be of array type.
+
+int a[],b,c;	// here only 'a' will be of array type ; 'b' & 'c' will be normal data holders.
+
+
+
+Initialization:
+----------------
+
+int []x = {12,23,34,45,56};
+
+
+Accessing:
+----------
+
+System.out.print(x);	//	address will be printed
+
+System.out.print(x[0]);	//	'12' will be printed
+
+System.out.print(x[]);	//	compile time error	
+
+System.out.print(x.length);		//	'5' will be printed
+
+
+//** IF WE WANT TO ACCESS ALL THE ELEMENTS FROM AN ARRAY, THEN WE'LL USE FOR LOOP **//
+
+
+	for(int i=0;i<=x.length;i++)	
+	{
+		System.out.print(x[i]);
+	}
+
+
+//**  lemgth() // it is a instance final variable of array **//
+
+
+
+
+

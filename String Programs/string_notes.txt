@@ -1,0 +1,47 @@
+-------
+
+STRING
+
+-------
+
+String s = "Jspiders";
+
+char ch = s.charAt(0);
+s.o.p(ch)				//	J
+	
+int i1 = s.indexOf('J');
+s.o.p(i1);				//	0
+
+int i2 = s.indexOf('z');
+s.o.p(i2);				//	-1
+
+int i3 = s.length();
+s.o.p(i3)				//	8
+
+----------------------------------------------------------------
+
+char[] c = s.toCharArray();		//	{'J','s','p','i','d','e','r','s'}
+
+for(int i=0;i<c.length;i++)
+{
+	s.o.p(c[i]);
+}
+
+-----------------------------------------------------------------
+
+char[] ch = {'J','a','v','a'};
+
+String st = new String(ch);		//	character array to string
+
+s.o.p(st);
+
+
+
+
+convert all the vowels to capital and consonants to small in a string
+
+print how many charaters present in each word of a sentance
+
+
+
+
